@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Libertés et participation politique au XIXe siècle : schéma systémique</title>
+<meta name="description" content="Benjamin Constant, François Guizot et 1848 : schéma systémique du libéralisme politique et des freins au suffrage universel masculin.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏛️%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#F4F6F8;--card:#fff;--fg:#17212B;--mut:#55626F;--line:#D5DBE1;--ink:#14233A;--onink:#EEF2F6;
+--tf:#DDF1EA;--ts:#1D7F66;--tt:#0B4A3B;--pf:#E7E8F8;--ps:#4B4FA8;--pt:#25276B;
+--rf:#F8E4DF;--rs:#B24A37;--rt:#6B2418;--gf:#ECEFF2;--gs:#7A8793;--gt:#2A343D;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0F161D;--card:#16202A;--fg:#E8EDF2;--mut:#9AA8B5;--line:#2B3945;--ink:#0A1118;
+--tf:#12342B;--ts:#4FBF9F;--tt:#BDEBDD;--pf:#22244A;--ps:#8A8FE8;--pt:#D3D5FA;
+--rf:#3E1D17;--rs:#E88672;--rt:#F7CFC6;--gf:#232D36;--gs:#8A98A5;--gt:#D7DEE4;color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 Literata,Georgia,serif}
+.sans{font-family:Instrument Sans,system-ui,sans-serif}
+header{background:var(--ink);color:var(--onink);padding:48px 20px 40px}
+.wrap{max-width:900px;margin:0 auto}
+header .ctx{font:500 14px/1.5 Instrument Sans,system-ui,sans-serif;color:#9FB3C8;margin:0 0 14px}
+h1{font:600 clamp(26px,4.6vw,38px)/1.18 Instrument Sans,system-ui,sans-serif;margin:0 0 14px;letter-spacing:-.015em;max-width:24ch}
+header p.sub{margin:0;max-width:60ch;color:#C9D5E1;font-size:17px}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:4px;padding:8px 20px;overflow-x:auto}
+nav a{font:500 14px/1 Instrument Sans,system-ui,sans-serif;color:var(--mut);text-decoration:none;padding:10px 14px;border-radius:8px;white-space:nowrap}
+nav a:hover,nav a:focus-visible{background:var(--bg);color:var(--fg);outline:none}
+nav a:focus-visible{box-shadow:0 0 0 2px var(--ps)}
+main{padding:20px 20px 72px}
+section{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:14px;font:600 24px/1.3 Instrument Sans,system-ui,sans-serif;margin:0 0 16px}
+h2 .tag{flex:none;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--onink);display:inline-grid;place-items:center;font-size:16px;transform:translateY(5px)}
+.q{margin:0 0 18px;padding:12px 16px;background:var(--card);border-left:3px solid var(--gs);color:var(--mut);font-size:15px;line-height:1.6;max-width:72ch}
+.q b{font:600 13px/1 Instrument Sans,system-ui,sans-serif;color:var(--fg);display:block;margin-bottom:6px}
+p{max-width:68ch;margin:0 0 14px}
+.docs{font:400 14px/1.5 Instrument Sans,system-ui,sans-serif;color:var(--mut);margin:0 0 18px}
+figure{margin:24px 0 0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+figure .sc{overflow-x:auto}
+figure svg{display:block;width:100%;min-width:640px;height:auto}
+figcaption{font:400 14px/1.5 Instrument Sans,system-ui,sans-serif;color:var(--mut);margin:10px 4px 2px}
+.leg{display:flex;flex-wrap:wrap;gap:8px 20px;font:400 14px/1.4 Instrument Sans,system-ui,sans-serif;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:28px 0 0}
+.leg b{width:100%;color:var(--fg);font-weight:600}
+.leg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:7px;vertical-align:-1px;border:1px solid}
+footer{border-top:1px solid var(--line);padding:28px 20px 48px;font:400 14px/1.6 Instrument Sans,system-ui,sans-serif;color:var(--mut)}
+svg .n rect{fill:var(--f);stroke:var(--s);stroke-width:.8}
+svg .T{--f:var(--tf);--s:var(--ts);--t:var(--tt)}
+svg .P{--f:var(--pf);--s:var(--ps);--t:var(--pt)}
+svg .R{--f:var(--rf);--s:var(--rs);--t:var(--rt)}
+svg .G{--f:var(--gf);--s:var(--gs);--t:var(--gt)}
+svg .old{opacity:.5}
+svg .cur rect{stroke-width:1.6}
+svg .h{fill:var(--t);font:600 14px Instrument Sans,system-ui,sans-serif}
+svg .s{fill:var(--t);opacity:.85;font:400 12px Instrument Sans,system-ui,sans-serif}
+svg .lbl{fill:var(--mut);font:400 12px Instrument Sans,system-ui,sans-serif}
+svg .a{stroke:var(--mut);stroke-width:1.5;fill:none}
+svg .ar{stroke:var(--rs);stroke-width:1.5;fill:none}
+svg .box{fill:none;stroke:var(--mut);stroke-width:.8;stroke-dasharray:5 4}
+@media print{nav{display:none}header{background:none;color:#000;padding:0}header .ctx,header p.sub{color:#333}section{break-inside:avoid}figure svg{min-width:0}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<p class="ctx">Thème 1, Un régime politique : la démocratie. Chapitre 1, La nature des démocraties. Partie 2, La démocratie libérale.</p>
+<h1>Libertés et participation politique au XIXe siècle</h1>
+<p class="sub">Schéma systémique de la pensée libérale de Benjamin Constant à François Guizot, et lecture de 1848 comme premier aboutissement.</p>
+</div>
+</header>
+<nav aria-label="Questions"><div class="wrap">
+<a href="#a">a. Constant</a><a href="#b">b. Guizot</a><a href="#c">c. 1848</a><a href="#d">d. Les freins</a>
+</div></nav>
+
+<main><div class="wrap">
+<div class="leg" aria-label="Légende des schémas"><b>Lire les schémas</b>
+<span><i style="background:var(--tf);border-color:var(--ts)"></i>Libertés et aboutissement</span>
+<span><i style="background:var(--pf);border-color:var(--ps)"></i>Participation et boucle de Guizot</span>
+<span><i style="background:var(--rf);border-color:var(--rs)"></i>Dangers et freins</span>
+<span><i style="background:var(--gf);border-color:var(--gs)"></i>Conditions et analyse de l’historien</span>
+<span style="width:100%">Chaque schéma reprend le précédent : ce qui vient d’être ajouté est en pleine couleur, le reste est atténué.</span>
+</div>
+
+<section id="a">
+<h2><span class="tag">a</span>Constant : articuler libertés et participation</h2>
+<div class="q"><b>Consigne</b>Vous lirez chacun des trois textes de Benjamin Constant tirés entre autres de sa conférence de 1819 <i>De la liberté des Anciens et des modernes</i> et construirez à partir de ceux-ci un schéma systémique montrant comment il pense qu’il faudrait articuler les libertés et la participation à la vie politique au XIXème siècle.</div>
+<p class="docs">Documents : « Les libertés modernes » (1819), « Les Anciens et les Modernes » (1819), « La question des droits politiques » (1815), encadré biographique de Constant.</p>
+<p>Dans « Les libertés modernes », Constant définit la liberté comme un ensemble de droits individuels : n’être soumis qu’aux lois, ne pas être arrêté ni détenu arbitrairement, dire son opinion, choisir son industrie, disposer de sa propriété, aller et venir, se réunir, pratiquer le culte de son choix. Dans « Les Anciens et les Modernes », il explique que, plus l’exercice des droits politiques laisse de temps pour les intérêts privés, plus la liberté est précieuse. De là la nécessité du système représentatif, une procuration donnée à des hommes par un peuple qui n’a pas le temps de défendre lui-même ses intérêts.</p>
+<p>Deux conditions en découlent : le peuple doit exercer une surveillance « active et constante » de ses représentants et se réserver le droit de les écarter ; il doit aussi éviter le danger de la liberté moderne, qui est de renoncer à son droit de partage dans le pouvoir politique, absorbé par son indépendance privée. Enfin, dans « La question des droits politiques », la force est illégitime, seule la volonté générale est légitime, et la souveraineté du peuple « n’est pas illimitée » : les droits politiques exigent le loisir d’acquérir des lumières, que seule la propriété assure. Le document sur Robespierre précise que Constant élabore sa réflexion en opposition à la Terreur.</p>
+<figure><div class="sc" id="fa"></div><figcaption>Schéma 1. Constant : libertés modernes et participation politique.</figcaption></figure>
+</section>
+
+<section id="b">
+<h2><span class="tag">b</span>Guizot : un progrès notoire</h2>
+<div class="q"><b>Consigne</b>Vous ferez de même avec le texte de François Guizot en élargissant le schéma systémique : de quelle façon sa conception constitue-t-elle un progrès notoire ?</div>
+<p class="docs">Documents : « Le règne des capacités » (discours du 5 mai 1837), encadré biographique de Guizot.</p>
+<p>Dans « Le règne des capacités », Guizot, ministre sous la monarchie de Juillet, affirme que les droits politiques, limités à ceux qui sont capables de les exercer, « peuvent s’étendre à mesure que la capacité s’étend ». Le gouvernement provoque sans cesse l’extension de cette capacité en semant les lumières politiques : il fait adopter en 1833 une loi qui rend obligatoire l’entretien d’une école primaire par commune. L’encadré biographique ajoute que, pour Guizot, l’élargissement des droits politiques a pour conditions l’enrichissement par le travail, l’épargne et les progrès de l’éducation.</p>
+<p>Le progrès notoire tient au sort de la limite elle-même : au moment où le gouvernement « assigne une limite aux droits politiques », il « travaille à déplacer cette limite, à l’étendre, à la reculer ». Dans les textes de Constant, la condition est la propriété ; chez Guizot, c’est la capacité, que l’éducation permet d’acquérir et qui fait reculer la limite. D’où la boucle du schéma : école, capacités en hausse, limite reculée, puis nouvelle hausse des capacités.</p>
+<figure><div class="sc" id="fb"></div><figcaption>Schéma 2. Chez Guizot, la limite aux droits politiques devient déplaçable.</figcaption></figure>
+</section>
+
+<section id="c">
+<h2><span class="tag">c</span>Rosanvallon : 1848, premier aboutissement</h2>
+<div class="q"><b>Consigne</b>A l’aide de l’analyse de l’historien et politologue Pierre Rosanvallon vous ferez apparaitre 1848 comme un 1er aboutissement du schéma systémique.</div>
+<p class="docs">Document : « La question du suffrage au début du XIXe siècle » (Pierre Rosanvallon, 1991).</p>
+<p>Selon Pierre Rosanvallon, jusqu’en 1847 la revendication du suffrage universel reste « très minoritaire », circonscrite à de petits noyaux républicains. Les socialistes eux-mêmes n’en font pas leur cheval de bataille privilégié, et les libéraux les plus avancés se contentent de revendiquer un élargissement progressif de l’électorat.</p>
+<p>Jusqu’en 1847, l’horizon est donc l’élargissement progressif de l’électorat, celui que la boucle de Guizot organise. Le schéma place 1848 au bout de cette boucle, comme son premier aboutissement, ainsi que le demande la consigne. Le texte de Rosanvallon s’arrête en 1847 et ne décrit pas 1848 lui-même.</p>
+<figure><div class="sc" id="fc"></div><figcaption>Schéma 3. 1848, aboutissement de l’extension de l’électorat.</figcaption></figure>
+</section>
+
+<section id="d">
+<h2><span class="tag">d</span>Les freins au suffrage universel masculin</h2>
+<div class="q"><b>Consigne</b>Les documents d’accompagnement vous permettent de contextualiser ces discussions : de quelle façon expliquent-ils les freins à l’établissement du suffrage universel masculin ? Représentez-les dans votre schéma systémique.</div>
+<p class="docs">Documents : frise « La Révolution française et l’Empire », « La terreur au service de la démocratie ? » (Robespierre, 1794), « La monarchie constitutionnelle de la Restauration », analyse de Rosanvallon.</p>
+<p>Trois freins ressortent des documents.</p>
+<ol style="max-width:68ch;padding-left:22px;margin:0 0 14px">
+<li style="margin-bottom:8px">La Terreur. La frise date la proclamation de la Terreur de septembre 1793 et sa fin de juin 1794, avec l’exécution de Robespierre. Dans son discours du 5 février 1794, celui-ci fait de la vertu et de la terreur le ressort du gouvernement populaire en révolution. Constant élabore sa réflexion en opposition à ce régime.</li>
+<li style="margin-bottom:8px">Un électorat très restreint sous la Restauration. Le schéma de la monarchie constitutionnelle indique 110 000 électeurs sur 9 millions d’hommes, avec des conditions d’âge (30 ans) et de cens (300 francs), pour une nation de 28 millions de Français.</li>
+<li>Les images attachées au suffrage. Pour Rosanvallon, la démocratie comme participation populaire à la décision politique a été marquée de façon « indélébile » par l’expérience révolutionnaire. Durant toute la première moitié du XIXe siècle, le suffrage du nombre reste lié à des images de désordre, à des scènes d’émeutes, à des procédés expéditifs.</li>
+</ol>
+<p>Dans le schéma, ces freins sont regroupés dans le cadre en pointillés et dirigés vers l’extension de l’électorat, comme le demande la consigne.</p>
+<figure><div class="sc" id="fd"></div><figcaption>Schéma 4. Schéma complet : la boucle libérale, ses freins et 1848.</figcaption></figure>
+</section>
+<noscript><p>Les schémas nécessitent JavaScript.</p></noscript>
+</div></main>
+<footer><div class="wrap">Sources : textes de Benjamin Constant (1815, 1819), discours de François Guizot (5 mai 1837), discours de Robespierre (5 février 1794), Pierre Rosanvallon, <i>François Guizot et la culture politique de son temps</i> (1991), tels que reproduits dans le questionnaire du chapitre. Les réponses s’appuient uniquement sur ces documents.</div></footer>
+
+<script>
+(function(){
+var O='abcd';
+var N=[
+['a','T',30,30,180,'Libertés modernes','sûreté, opinion, culte'],
+['a','G',250,30,180,'Indépendance privée','intérêts particuliers'],
+['a','P',470,30,180,'Représentation','procuration aux élus'],
+['a','G',30,125,180,'Souveraineté limitée','pas illimitée (1815)'],
+['a','R',250,125,180,'Danger : repli','droit de partage perdu'],
+['a','P',470,125,180,'Contrôle des élus','surveillance constante'],
+['a','G',30,220,180,'Droits censitaires','propriétaires seulement'],
+['a','T',250,220,400,'Régime représentatif censitaire','libertés individuelles garanties'],
+['b','P',30,335,180,'Loi Guizot (1833)','une école par commune'],
+['b','P',250,335,180,'Capacités ↑','épargne, éducation'],
+['b','P',470,335,180,'Limite reculée','droits politiques étendus'],
+['c','G',690,220,190,'Rosanvallon','minoritaire jusqu’en 1847'],
+['c','T',690,335,190,'1848','premier aboutissement'],
+['d','R',30,455,180,'Terreur de 1793-94','expérience révolutionnaire'],
+['d','R',250,455,180,'Électorat restreint','110 000 sur 9 millions'],
+['d','R',470,455,180,'Images de désordre','suffrage du nombre']
+];
+var L=[
+['a','M210 58H248'],['a','M430 58H468'],['a','M340 86V123'],['a','M560 86V123'],['a','M430 153H468'],
+['a','M120 86V123'],['a','M120 181V218'],['a','M560 181V218'],['a','M210 248H248'],
+['b','M90 276V333'],['b','M210 363H248'],['b','M430 363H468'],['b','M560 335V306H170V333'],
+['c','M650 363H688'],['c','M785 276V333'],
+['d','M560 455V393','ar']
+];
+function draw(el,up){
+var u=O.indexOf(up),id='mk'+up,s='<svg viewBox="0 0 900 560" role="img"><title>Schéma systémique, étape '+up+'</title><desc>Schéma cumulatif des libertés, de la participation politique, de la boucle des capacités, de 1848 et des freins.</desc><defs><marker id="'+id+'" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>';
+if(u>=3)s+='<g class="'+(up==='d'?'cur':'old')+'"><rect class="box" x="20" y="422" width="640" height="105" rx="12"/><text class="lbl" x="35" y="440">Freins au suffrage universel</text><text class="lbl" x="570" y="410">freinent</text></g>';
+N.forEach(function(n){if(O.indexOf(n[0])>u)return;var c=n[0]===up?'cur':'old',x=n[2],y=n[3],w=n[4],cx=x+w/2;
+s+='<g class="n '+n[1]+' '+c+'"><rect x="'+x+'" y="'+y+'" width="'+w+'" height="56" rx="8"/><text class="h" x="'+cx+'" y="'+(y+20)+'" text-anchor="middle" dominant-baseline="central">'+n[5]+'</text><text class="s" x="'+cx+'" y="'+(y+38)+'" text-anchor="middle" dominant-baseline="central">'+n[6]+'</text></g>';});
+L.forEach(function(l){if(O.indexOf(l[0])>u)return;var c=l[0]===up?'cur':'old';
+s+='<g class="'+c+'"><path class="'+(l[2]||'a')+'" d="'+l[1]+'" marker-end="url(#'+id+')"/></g>';});
+if(u>=1)s+='<g class="'+(up==='b'?'cur':'old')+'"><text class="lbl" x="365" y="321" text-anchor="middle" dominant-baseline="central">↻ boucle de la capacité</text></g>';
+el.innerHTML=s+'</svg>';}
+['a','b','c','d'].forEach(function(k){draw(document.getElementById('f'+k),k);});
+})();
+</script>
+</body>
+</html>
